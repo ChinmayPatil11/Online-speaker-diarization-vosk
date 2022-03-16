@@ -93,11 +93,12 @@ try:
                 if rec.AcceptWaveform(data):
                     #print(rec.Result())
                     res = json.loads(rec.Result())
-                    print(res)
+                    #print(res)
                     #print('-----',type(res['text']))
                     #trans.write(res['text']+'\n')
                     if 'spk' in res:
                         print('-'*80)
+                        print(res['spk'])
                         #trans.write(res['text'])
                         #print ("Speaker distance:", cosine_dist(spk_sig, res['spk']), "based on", res['spk_frames'], "frames")
                         if cosine_dist(spk_sig,res['spk']) < 0.5:

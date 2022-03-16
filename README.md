@@ -4,8 +4,12 @@
 Download the models from https://alphacephei.com/vosk/models
 - model: https://alphacephei.com/vosk/models vosk-model-en-us-0.22  
   - Extract to /vosk and rename as 'model'.  
+  - ![image](https://user-images.githubusercontent.com/72211393/158597195-910e953f-c84b-4ce0-8cd1-11c534d30ce5.png)
+
 - model-spk: https://alphacephei.com/vosk/models vosk-model-spk-0.4 (Speaker Identification model)
   - Extract to /vosk and rename as 'model-spk'.  
+  - ![image](https://user-images.githubusercontent.com/72211393/158597313-7fb12c4c-78f0-4d01-b420-542afe052cac.png)
+
 
 ### To create spk_sig (speaker signature)
 ##### Method 1 (Using audio file)

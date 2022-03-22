@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WebRTC vosk-server ASR</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+<div class="container" style="text-align: center;" >
+    <h1>VOSK-API with WebRTC</h1>
+</div>
+<hr>
+<div class="container">
+    <p>
+        <button class="btn btn-success" id="start" onclick="start()">Start</button>
+        <button class="btn btn-danger d-none" id="stop" onclick="stop()">Stop</button>
+        <span id="status" class="text-uppercase text-muted">Press start</span>
+    </p>
+
+    <div id="list">
+    </div>
+    <div id="partial"></div>
+    <script src="/static/client.js"></script>
+</div>
+</body>
+</html>
+

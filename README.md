@@ -28,3 +28,12 @@ Download the models from https://alphacephei.com/vosk/models
 - Run test_microphone_speaker.py
   - python test_microphone_speaker.py
 - Conversation is transcribed to text.txt
+
+# Webrtc Server
+
+##### Steps
+- Place the same models downloaded above in /webrtc directory with the same naming convention.
+  - ASR model as 'model' in /webrtc directory
+  - Speaker model as 'model-spk' in /webrtc directory
+- Run /webrtc/asr_server_webrtc_copy_diarization.py
+- Open the browser and go to URL http://localhost:2700/ to start the server.
